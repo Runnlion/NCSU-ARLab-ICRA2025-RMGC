@@ -1,0 +1,5 @@
+subset1_clear/**
+subset4_clear/**
+output_icra_segment/**
+.vscode/
+coco_with_multiple_lighting_multithreaded_updated.json
