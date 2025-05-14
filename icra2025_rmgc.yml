@@ -65,4 +65,3 @@ dependencies:
       - triton==2.2.0
       - urllib3==1.26.13
       - yacs==0.1.8
-prefix: /home/wolftech/lxiang3.lab/anaconda3/envs/icra2025_rmgc
