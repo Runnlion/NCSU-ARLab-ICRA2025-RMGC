@@ -17,12 +17,12 @@ cfg.DATASETS.TEST = ("icra_train",)
 
 
 # Setting thing_classes for visualization
-MetadataCatalog.get("icra_train").thing_classes = [
-    "1-Cheez-it", "2-Starkist_Tuna", "3-Scissors", "4-Frenchs_Mustard", "5-Tomato_Soup",
-    "6-Foam_Brick", "7-Clamp", "8-Plastic_Banana", "9-Mug", "10-meat_can",
-    "31-Plastic_White_Cup", "32-Wine_Glass", "33-Key", "34-Nail", "35-Laugh_Out_Loud_Joke_Book",
-    "36-Adjustable_Wrench", "37-T-shirt", "38-Rolodex_Jumbo_Pencil_Cup", "39-Glove", "40-Pringles"
-]
+# MetadataCatalog.get("icra_train").thing_classes = [
+#     "1-Cheez-it", "2-Starkist_Tuna", "3-Scissors", "4-Frenchs_Mustard", "5-Tomato_Soup",
+#     "6-Foam_Brick", "7-Clamp", "8-Plastic_Banana", "9-Mug", "10-meat_can",
+#     "31-Plastic_White_Cup", "32-Wine_Glass", "33-Key", "34-Nail", "35-Laugh_Out_Loud_Joke_Book",
+#     "36-Adjustable_Wrench", "37-T-shirt", "38-Rolodex_Jumbo_Pencil_Cup", "39-Glove", "40-Pringles"
+# ]
 
 metadata = MetadataCatalog.get("icra_train")
 predictor = DefaultPredictor(cfg)

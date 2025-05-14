@@ -7,7 +7,8 @@ from detectron2.data import DatasetCatalog, MetadataCatalog
 from detectron2.utils.visualizer import Visualizer
 
 # Assign the path to your JSON file and image root directory
-json_file = "coco_with_multiple_lighting_multithreaded_updated.json"
+# json_file = "coco_with_multiple_lighting_multithreaded_updated.json"
+json_file = "converted.json"
 image_root = ""  # Image root directory
 
 # Register the dataset with Detectron2
@@ -29,7 +30,7 @@ for d in dataset_dicts:
 if sample is None:
     print("❌ No annotations found in the dataset.")
     exit()
-
+print(f"Sample file name: {sample['file_name']}")
 # Load RGB image
 img_path = os.path.join(image_root, sample["file_name"])
 image = cv2.imread(img_path)
