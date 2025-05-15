@@ -1,8 +1,8 @@
 
-ICRA - v2 2025-05-14 3:50pm
+ICRA - v3 2025-05-14 5:29pm
 ==============================
 
-This dataset was exported via roboflow.com on May 14, 2025 at 7:50 PM GMT
+This dataset was exported via roboflow.com on May 14, 2025 at 9:30 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,13 +17,15 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 110 images.
+The dataset includes 500 images.
 Items are annotated in COCO Segmentation format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 2048x1536 (Stretch)
 
-No image augmentation techniques were applied.
+The following augmentation was applied to create 5 versions of each source image:
+* Equal probability of one of the following 90-degree rotations: none, clockwise, counter-clockwise
+* Random rotation of between -15 and +15 degrees
 
 

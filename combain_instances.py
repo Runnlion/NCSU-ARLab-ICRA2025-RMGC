@@ -101,4 +101,5 @@ def process_and_save(input_json, output_json):
 # Example usage:
 # process_and_save("roboflow_export.json", "final_merged_annotations.coco.json")
 
-process_and_save('/home/wolftech/lxiang3.lab/Desktop/sdu6_inside/NCSU-ARLab-ICRA2025-RMGC/dataset/train/_annotations.coco.json', "converted.json")
+process_and_save('/home/wolftech/lxiang3.lab/Desktop/sdu6_inside/NCSU-ARLab-ICRA2025-RMGC/dataset/train/_annotations.coco.json', "/home/wolftech/lxiang3.lab/Desktop/sdu6_inside/NCSU-ARLab-ICRA2025-RMGC/dataset/train/converted.json")
+process_and_save('/home/wolftech/lxiang3.lab/Desktop/sdu6_inside/NCSU-ARLab-ICRA2025-RMGC/dataset/valid/_annotations.coco.json', "/home/wolftech/lxiang3.lab/Desktop/sdu6_inside/NCSU-ARLab-ICRA2025-RMGC/dataset/valid/converted.json")

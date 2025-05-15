@@ -3,3 +3,5 @@ subset4_clear/**
 output_icra_segment/**
 .vscode/
 coco_with_multiple_lighting_multithreaded_updated.json
+valid_14.jpg
+valid_27.jpg
